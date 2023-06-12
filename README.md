@@ -1,4 +1,4 @@
-﻿# echoAndRich
+﻿# restfulAPI
 AWS 반영
 
 http://54.180.114.52:8080
