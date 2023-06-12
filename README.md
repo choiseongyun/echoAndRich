@@ -46,6 +46,4 @@ http://54.180.114.52:8080/safety-news/{serviceKey}/{countryName}/{countryCode}
 
 공공 데이터 포털 외교부_국가·지역별 최신안전소식(코로나관련) (GET)
 
-에코앤리치_API문서(최성윤).xlsx 참조
-
 
