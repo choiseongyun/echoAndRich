@@ -21,7 +21,7 @@ api 구현
 (http://54.180.114.52:8080/api/departments)
 
 특정 부서 ID로 부서 조회 API (GET)
-(http://54.180.114.52:8080/api/get-departments/{departmentId}) 
+(http://54.180.114.52:8080/api/departments/{departmentId}) 
 
 (departmentId는 10 부터 시작하여 10의 배수로 늘어나며 270까지의 Integer 숫자)
 
@@ -30,7 +30,7 @@ api 구현
 
 특정 위치 ID로 위치 조회 API (GET)
 
-(http://54.180.114.52:8080/api/get-locations/{locationId})
+(http://54.180.114.52:8080/api/locations/{locationId})
 
 (locationId는 1000부터 시작하여 100의 배수로 늘어나며 3200까지의 Integer 숫자)
 
