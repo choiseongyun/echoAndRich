@@ -33,7 +33,7 @@ public class DepartmentController {
     }
 
     // 특정 부서 ID로 부서 조회
-    @GetMapping("/get-departments/{departmentId}")
+    @GetMapping("/departments/{departmentId}")
     public ResponseEntity<DepartmentDTO> getDepartmentById(@PathVariable Integer departmentId) {
         Department department = departmentService.getDepartmentById(departmentId);
         if (department == null) {
@@ -54,7 +54,7 @@ public class DepartmentController {
     }
 
     // 특정 위치 ID로 위치 조회
-    @GetMapping("/get-locations/{locationId}")
+    @GetMapping("/locations/{locationId}")
     public ResponseEntity<LocationDTO> getLocationById(@PathVariable Integer locationId) {
         Location location = departmentService.getLocationById(locationId);
         if (location == null) {
